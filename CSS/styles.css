@@ -114,7 +114,15 @@ label{
     display: block;
     width: 100%;
     text-align: center;
+    text-decoration: none !important; 
+}
+
+.btn-ingresar:hover, 
+.btn-ingresar:focus, 
+.btn-ingresar:active {
     text-decoration: none;
+    color: white;
+    outline: none;
 }
 
 .checkbox{
