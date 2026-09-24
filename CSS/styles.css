@@ -114,11 +114,9 @@ label{
     display: block;
     width: 100%;
     text-align: center;
+    text-decoration: none;
 }
-.btn-ingresar a {
-    text-decoration:none;
-    
-}
+
 .checkbox{
     display: flex;
     flex-direction: row;
