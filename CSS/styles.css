@@ -115,6 +115,10 @@ label{
     width: 100%;
     text-align: center;
 }
+.btn-ingresar a {
+    text-decoration:none;
+    
+}
 .checkbox{
     display: flex;
     flex-direction: row;
