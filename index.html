@@ -1,38 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DevPlatform - Login</title>
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
     <div class="container">
-        <form action="dashboard.html" method="get">
+        <form action="dashboard.html" method="post">
             <fieldset>
 
-            <h1>Dev<span class="luces">Plataform</span></h1>
-            <p class="textoP">Ingresa tus credenciales para poder acceder al panel de control.</p>
+                <h1>Dev<span class="luces">Plataform</span></h1>
+                <p class="textoP">Ingresa tus credenciales para poder acceder al panel de control.</p>
 
-                <label for="correo">Correo Electronico * </label>
-                <input type="email" name="correo" id="correoo" required placeholder="ejemplo@correo.com">
+                <label for="correo">Correo Electronico *</label>
+                <input type="email" name="correo" id="correo" required placeholder="ejemplo@correo.com">
 
-                <label for="contraseña" >Contraseña * </label>
-                <input type="password" name="contraseña" id="contraseña" required >
+                <label for="contraseña">Contraseña *</label>
+                <input type="password" name="contraseña" id="contraseña" required>
 
-                <label for="rol">Rol de desarrollo * </label>
+                <label for="rol">Rol de desarrollo *</label>
                 <select name="desplegable" id="rol" required>
-                    <option value="" aria-placeholder="seleccione una opcion">seleccione una opcion</option>
-                    <option value="desarrolladorFronted">Desarrollador Fronted</option>
-                    <option value="desarrolladorBakend">Desarrollador Bakend</option>
+                    <option value="" disabled selected>seleccione una opcion</option>
+                    <option value="desarrolladorFronted">Desarrollador Frontend</option>
+                    <option value="desarrolladorBakend">Desarrollador Backend</option>
                     <option value="desarrolladorFullstack">Desarrollador FullStack</option>
                 </select>
+
                 <div class="checkbox">
-                <input type="checkbox" id="checkbox" required>Acepto los terminos de servicio y privacidad.
+                    <input type="checkbox" id="checkbox" required>
+                    <label for="checkbox">Acepto los términos de servicio y privacidad.</label>
                 </div>
 
-               <a href="dashboard.html" class="btn-ingresar">Ingresar al DashBoard</a>
-
+                <button type="submit" class="btn-ingresar">Ingresar al DashBoard</button>
 
             </fieldset>
         </form>
