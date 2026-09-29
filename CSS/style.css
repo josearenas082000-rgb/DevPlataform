@@ -48,7 +48,6 @@ aside {
     cursor: pointer;
     transition: background 0.2s;
     color: #bddbff;
-
 }
 
 .menu li.active, .menu li:hover {
